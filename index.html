@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>input框清空和密码的明文显示</title>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+   <link href="css/inputShowPwd.css" rel="stylesheet">
+   <link href="css/style.css" rel="stylesheet"><!--自己书写input样式-->
+
+   <script src="http://libs.baidu.com/jquery/1.10.2/jquery.js"></script>
+   <script src="js/inputShowPwd.js"></script>
+   <script>
+   $(function(){
+    var _input = new inputShowPwd('inputShowPwd');
+   });
+   </script>
+   
+</head>
+<body>
+
+
+  <!--原始input输入框做比较使用-->
+  <h1>原始input示例</h1>
+  <input type="password" placeholder="请填入密码"/>
+
+
+  <!--原始input输入框做比较使用-->
+  <h1>插件更改input（type="password"）</h1>
+  <div class="inputShowPwd">
+    <input type="text" placeholder="请填入密码"/>
+    <input type="password" placeholder="请填入密码"/>
+    <span class="showEle"></span>
+  </div>
+
+  <div class="inputShowPwd">
+    <input type="text" placeholder="请填入密码"/>
+    <input type="password" placeholder="请填入密码"/>
+    <span class="showEle"></span>
+  </div>
+  
+
+</body>
+</html>
