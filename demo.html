@@ -44,11 +44,4 @@
 	</div>
 
 </body>
-<script type="text/javascript">
-	$('pre').each(function(){
-		var _tmp = $(this).html();
-		_tmp = _tmp.replace(new RegExp('<','gm'),'&lt;').replace(new RegExp('script-tag',"gm"),'script').replace(new RegExp('link-tag',"gm"),'link');
-		$(this).html(_tmp);
-	});
-</script>
 </html>
