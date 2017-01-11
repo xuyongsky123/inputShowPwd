@@ -26,7 +26,7 @@ inputShowPwd.prototype.init = function(ele){
     var T = this;
     this.container = $('.'+ele);  //input包装容器
     this.inputEle = this.container.children('input[type="password"]');   //input输入框
-    this.deleteEle = this.container.children('.showEle'); //清空按钮
+    this.deleteEle = this.container.children('.showEle'); //显示按钮
 
     (function(){
         //处理ie9不支持栅格键点击触发onpropertychange事件
