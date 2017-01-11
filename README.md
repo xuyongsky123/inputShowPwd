@@ -1,4 +1,5 @@
-<h2>inputShowPwd.js简介<a href="demo.html">input密码框的明文显示(inputShowPwd.js)的使用示例</a></h2>
+<h2>inputShowPwd.js简介<a href="http://www.shdnfw.com/plugin/inputShowPwd/demo.html">input密码框的明文显示(inputShowPwd.js)的使用示例</a></h2>
+<hr/>
 <p>inputShowPwd.js是基于jquery封装开发用于实现input密码框的明文显示功能的js组件，用于格式化一个或多个密码框，实现密码的查看功能</p>
 
 <hr/>
@@ -7,27 +8,37 @@
 <p>
   最先引入jquery (Bootstrap中文网开源项目免费 CDN 服务)：
 </p>
-<pre><script-tag type="text/javascript" src="//cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script-tag></pre>
+```html
+<script type="text/javascript" src="//cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+```
 <p>
   再次页面中引入：
 </p>
-<pre><script-tag type="text/javascript" src="....../inputShowPwd.js"></script-tag></pre>
+```html
+<script type="text/javascript" src="....../inputShowPwd.js"></script>
+```
 
 <h3>2、使用：</h3>
 <h4>html：</h4>
 <p>
   （固定格式html准备）
 </p>
-<pre><div class="inputShowPwd">
+```html
+<div class="inputShowPwd">
 <input type="password" placeholder="请填入密码"/>
 <span class="showEle"></span>
-</div></pre>
+</div>
+```
 
 <h4>css（添加当前样式）：</h4>
-<pre><link-tag rel="stylesheet" type="text/css" href="....../inputShowPwd.css" /></pre>
+```html
+<link rel="stylesheet" type="text/css" href="....../inputShowPwd.css" />
+```
 
 <h4>js（实例化相应的密码显示框）：</h4>
-<pre>var _input = new inputShowPwd('inputShowPwd');</pre>
+```javascript
+var _input = new inputShowPwd('inputShowPwd');
+```
 
 <h3>3、说明：</h3>
 <p>
