@@ -1,4 +1,4 @@
-<h2>inputShowPwd.js简介<a href="http://www.shdnfw.com/plugin/inputShowPwd/demo.html">input密码框的明文显示(inputShowPwd.js)的使用示例</a></h2>
+<h2>inputShowPwd.js简介    <a href="http://www.shdnfw.com/plugin/inputShowPwd/demo.html">input密码框的明文显示(inputShowPwd.js)的使用示例</a></h2>
 <p>inputShowPwd.js是基于jquery封装开发用于实现input密码框的明文显示功能的js组件，用于格式化一个或多个密码框，实现密码的查看功能</p>
 
 <hr/>
@@ -24,8 +24,8 @@
 </p>
 ```html
 <div class="inputShowPwd">
-<input type="password" placeholder="请填入密码"/>
-<span class="showEle"></span>
+  <input type="password" placeholder="请填入密码"/>
+  <span class="showEle"></span>
 </div>
 ```
 
