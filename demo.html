@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>input密码框的明文显示(inputShowPwd.js)的使用示例</title>
+
+	<link rel="stylesheet" type="text/css" href="css/inputShowPwd.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+
+	<script type="text/javascript" src="//cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+   	<script src="js/inputShowPwd.js"></script>
+   	<script type="text/javascript">
+   		$(function(){
+   			var _input = new inputShowPwd('inputShowPwd');
+   		});
+   	</script>
+</head>
+<body>
+
+	<div class="container">
+		
+		<h2>input密码框的明文显示(inputShowPwd.js)的使用示例</h2>
+	    <div class="paramItem">
+	    	<strong>以下为测试数据<small>（填写测试）</small></strong>
+	    </div>
+
+	    <!--原始input输入框做比较使用-->
+		<h3>原始input示例</h3>
+		<input type="password" placeholder="请填入密码"/>
+
+
+		<!--原始input输入框做比较使用-->
+		<h3>插件更改input（type="password"）</h3>
+		<div class="inputShowPwd">
+			<input type="password" placeholder="请填入密码"/>
+			<span class="showEle"></span>
+		</div>
+
+		<div class="inputShowPwd">
+			<input type="password" placeholder="请填入密码"/>
+			<span class="showEle"></span>
+		</div>
+
+	</div>
+
+</body>
+<script type="text/javascript">
+	$('pre').each(function(){
+		var _tmp = $(this).html();
+		_tmp = _tmp.replace(new RegExp('<','gm'),'&lt;').replace(new RegExp('script-tag',"gm"),'script').replace(new RegExp('link-tag',"gm"),'link');
+		$(this).html(_tmp);
+	});
+</script>
+</html>
