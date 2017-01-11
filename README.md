@@ -1,5 +1,4 @@
 <h2>inputShowPwd.js简介<a href="http://www.shdnfw.com/plugin/inputShowPwd/demo.html">input密码框的明文显示(inputShowPwd.js)的使用示例</a></h2>
-<hr/>
 <p>inputShowPwd.js是基于jquery封装开发用于实现input密码框的明文显示功能的js组件，用于格式化一个或多个密码框，实现密码的查看功能</p>
 
 <hr/>
@@ -42,7 +41,7 @@ var _input = new inputShowPwd('inputShowPwd');
 
 <h3>3、说明：</h3>
 <p>
-  其中inputShowPwd.css为框架样式必须引进，当你需要更改密码框样式的时候，请按需适当修改即可
+  其中inputShowPwd.css为该组件样式必须引进，当你需要更改密码框样式的时候，请按需适当修改即可
 </p>
 
 <h3>4、兼容性：</h3>
