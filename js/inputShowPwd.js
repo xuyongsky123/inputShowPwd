@@ -35,8 +35,8 @@ inputShowPwd.prototype.init = function(ele){
                 T.inputEle.keyup(function(event){
 
                     var t = $(this);
-                    var _parent = t.parent();
-                    var _btn = _parent.children('.showEle');
+                    var _btn = t.parent().children('.showEle');
+                    
                     if(event.keyCode == 8){
                         ;(t.val() == '') ? _btn.fadeOut(100) : _btn.fadeIn(100);
                     }
